@@ -5,3 +5,5 @@ Industrial organizations have a large number of physical documents such as invoi
 Extracting insights from these invoices for their end users require building a complex NLP model. Training the model would require a large amount of training data , computing resources and can be expensive and time-consuming.
 
 Also , it is quite expensive and cumbersome to use human help desk for organizations.
+
+This project aims to solve these problems by using AWS AI services(Textract, Comprehend and Lex) to create an automated serverless solution for text processing ,insight discovery and interaction in natural language with end users. 
