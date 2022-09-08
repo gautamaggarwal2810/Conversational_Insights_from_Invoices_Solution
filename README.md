@@ -10,5 +10,6 @@ This project aims to solve these problems by using AWS AI services(Textract, Com
 
 ## How does it work on backend?
 1 ) The backend administrator uses the AWS Console or AWS CLI to upload the PDF documents or images to S3 bucket.
-2 ) The Amazon S3 upload triggers a AWS Lambda function.
+
+2 ) The Amazon S3 upload triggers a AWS Lambda function that invokes Amazon Textract \textbf{StartDocumentTextDetection API}, which sets up an asynchronous job to detect text from     the PDF you uploaded.
 
