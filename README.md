@@ -8,6 +8,7 @@ Also , it is quite expensive and cumbersome to use human help desk for organizat
 
 This project aims to solve these problems by using AWS AI services(Textract, Comprehend and Lex) to create an automated serverless solution for text processing ,insight discovery and interaction in natural language with end users. 
 
-## Architecture :
-![Arch](./images/arch.png)
+## How does it work on backend?
+1 ) The backend administrator uses the AWS Console or AWS CLI to upload the PDF documents or images to S3 bucket.
+2 ) The Amazon S3 upload triggers a AWS Lambda function.
 
