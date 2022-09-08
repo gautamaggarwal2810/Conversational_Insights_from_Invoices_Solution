@@ -9,5 +9,5 @@ Also , it is quite expensive and cumbersome to use human help desk for organizat
 This project aims to solve these problems by using AWS AI services(Textract, Comprehend and Lex) to create an automated serverless solution for text processing ,insight discovery and interaction in natural language with end users. 
 
 ## Architecture :
-!![Arch](./images/arch.png)
+![Arch](./images/arch.png)
 
