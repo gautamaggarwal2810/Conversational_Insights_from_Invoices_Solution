@@ -25,6 +25,6 @@ This project aims to solve these problems by using AWS AI services(Textract, Com
 
 8 ) When the user types “Can you show me the invoice notes for <invoice number>”, this invokes the **GetInvoiceNotes** intent, and the Lambda function invokes the         Comprehend **DetectKeyPhrases** API to return key insights.
   
-  ##Working Prototype
+  ## Working Prototype
   
   ![Final](./images/Final.png)
