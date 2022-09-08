@@ -19,8 +19,12 @@ This project aims to solve these problems by using AWS AI services(Textract, Com
 
 5 ) Amazon Comprehend uses ML to find insights and relationships in text.
 
-6 ) In response to the Bot’s welcome message, the user types “Show me the invoice summary”, this invokes the **GetInvoiceSummary** Lex intent and the Lambda function       invokes Comprehend **DetectEntities** API to detect entities for fulfillment.
+6 ) In response to the Bot’s welcome message, the user types “Show me the invoice summary”, this invokes the **GetInvoiceSummary** intent and the Lambda function           invokes Comprehend **DetectEntities** API to detect entities.
 
 7 ) When the user types “Get me the invoice details”, this invokes the **GetInvoiceDetails** intent, Lex requests the user for Invoice Number, and the Lambda function     invokes the Comprehend **DetectEntities** API to return the Invoice Details.
 
-8 ) When the user types “Can you show me the invoice notes for <invoice number>”, this invokes the **GetInvoiceNotes** intent, and the Lambda function invokes the         Comprehend **DetectKeyPhrases** API to return comments associated with the invoice.
+8 ) When the user types “Can you show me the invoice notes for <invoice number>”, this invokes the **GetInvoiceNotes** intent, and the Lambda function invokes the         Comprehend **DetectKeyPhrases** API to return key insights.
+  
+  ##Working Prototype
+  
+  ![Final](./images/Final.png)
