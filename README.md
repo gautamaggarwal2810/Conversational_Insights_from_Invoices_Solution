@@ -27,4 +27,6 @@ This project aims to solve these problems by using AWS AI services(Textract, Com
   
   ## Working Prototype
   
-  ![Final](./images/Final.png)
+  <p align="center">
+  <img src="./images/Final.png">  
+  </p>
